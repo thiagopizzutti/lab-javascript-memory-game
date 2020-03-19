@@ -29,7 +29,7 @@ const memoryGame = new MemoryGame(cards)
 const pairsClickedBtn = document.querySelector("#pairs-clicked")
 const pairsGuessedBtn = document.querySelector("#pairs-guessed")
 
-// memoryGame.shuffleCards()
+memoryGame.shuffleCards()
 window.addEventListener("load", event => {
   let html = ""
   memoryGame.cards.forEach(pic => {
